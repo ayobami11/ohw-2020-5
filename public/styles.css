@@ -73,6 +73,15 @@ header img {
     height: 24px;
 }
 
+#login-div {
+    justify-content: space-between;
+    width: 140px;
+}
+
+#login-div .flex {
+    align-items: center;
+}
+
 #login {
     background-color: var(--primary-color);
     border: none;
