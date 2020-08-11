@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Account Recovery</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="../public/styles.css" type="text/css">
+        <link rel="stylesheet" href="../public/account-recovery.css" type="text/css">
+        <script src="../public/script.js" defer></script>
+    </head>
+    <body class="form-page">
+        <!-- Header section -->
+        <header>
+            <div id="header-div" class="flex">
+                <figure class="flex">
+                    <img src="https://res.cloudinary.com/dizrb3vql/image/upload/v1596126338/Screenshot_20200728-234326_1_rvxqme.png" alt="Logo">
+                    <figcaption>Foodies First</figcaption>
+                </figure>
+                <nav class="hide">
+                    <ul class="flex">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </nav>
+                <a id="login" class="hide bold" href="../login/login.html">Login</a>
+                <img id="hamburger" src="https://res.cloudinary.com/dizrb3vql/image/upload/v1596145703/Group_twsno9.png" alt="">
+            </div>
+        </header>
+        <main class="flex">
+            <!-- Hamburger section -->
+            <nav id="hamburger-section" class="bold">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </nav>
+            <!-- Account recovery section -->
+            <section class="account-recovery">
+                <form action="" method="POST">
+                    <div id="title-div" class="flex">
+                        <img id="logo" src="https://res.cloudinary.com/dizrb3vql/image/upload/v1596126338/Screenshot_20200728-234326_1_rvxqme.png" alt="Logo">
+                        <h2 id="form-title">Account Recovery</h2>
+                    </div>
+                    <div class="recovery-inputs">
+                        <input type="password" name="password" minlength="8" placeholder="Enter New Password" required>
+                        <input type="password" name="password" minlength="8" placeholder="Re-Enter Password" required>
+                        <button class="submit-btn" type="submit">Confirm Password</button>
+                    </div>
+                </form>
+            </section>
+        </main>        
+    </body>
+</html>
