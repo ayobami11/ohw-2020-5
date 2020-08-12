@@ -13,9 +13,13 @@ Replace the header and footer elements with this:
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">About</a></li>
+                <li><a href="#">Menu</a></li>
             </ul>
         </nav>
-        <a id="login" class="hide bold" href="../login/login.html">Login</a>
+        <div id="login-div" class="flex hide">
+            <a class="flex" href="#" title="Order Now"><img src="https://res.cloudinary.com/dizrb3vql/image/upload/v1596125800/shopping-cart_1_1_z6whh9.png" alt="Cart"></a>
+            <a id="login" class="bold" href="../login/login.html">Login</a>
+        </div>
         <img id="hamburger" src="https://res.cloudinary.com/dizrb3vql/image/upload/v1596145703/Group_twsno9.png" alt="">
     </div>
 </header>
@@ -33,4 +37,5 @@ Replace the header and footer elements with this:
     </div>
 </footer>
 
+Copy and paste the whole public/styles.css to add the changes and replace the old code.
 For the CSS of the header and footer, I created a public folder that contains the code. The same goes for the JavaScript file. 
