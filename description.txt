@@ -1,6 +1,6 @@
 Samad and Abiola:
 
-Replace the header and footer elements with this:
+Replace the header, footer elements and hamburger section with this:
 
 <header>
     <div id="header-div" class="flex">
@@ -23,6 +23,16 @@ Replace the header and footer elements with this:
         <img id="hamburger" src="https://res.cloudinary.com/dizrb3vql/image/upload/v1596145703/Group_twsno9.png" alt="">
     </div>
 </header>
+
+<nav id="hamburger-section" class="bold">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Login</a></li>
+    </ul>
+</nav>
 
 <footer>
     <div id="footer-div" class="flex flex-column bold">
