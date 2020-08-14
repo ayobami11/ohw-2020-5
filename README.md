@@ -1,9 +1,42 @@
-# ohw-2020-5
-- Removed blog links.
+Open Hack Week -Group 5
+=========================
+Foodies First Website
+==========================
+## Description : 
+  Foodies First is a catering service that provides home-made meals at affordable prices. We prepare varieties of dishes on order-basis. We offer meal packages including breakfast & lunch deals, bowls of soup & stew and many more Picked-up or delivered to your doorstep within Lagos.
 
-- Added hover states for header and footer elements.
+## Solution: 
+  We  implemented  a modern user friendly frontend design with the following features
+  
+- **Home Page** : This shows the details of the website
 
-- Created a public folder for the header/footer CSS and JavaScript file.
-When using the CSS file, please ensure it is the first CSS file in the head element so that conflicting styles can be overriden by the next CSS files. Samad and Abiola, please check out the description.txt for a guide on how to implement the header and footer changes.
+- **About Page** : This shows about the organization
 
-- Implemented figma changes.
+- **Login / Sign Up Page** : Allows User to be authenticated 
+
+- **Menu Page** : This shows the current menus available
+
+- **Checkout Page** : This shows the page that allows the customers to pay online.
+
+## Team Members:
+- [Jegede Abisola](#)
+
+- [Abiola Farounbi](https://github.com/Abiola-Farounbi)
+
+- [Tunwase Ayobami](https://github.com/ayobami11)
+
+- [Abdussamad Yisau](https://github.com/AbdussamadYisau)
+
+- [Damilare Agbabiaka](https://github.com/BlankGodd)
+
+- [Onwunali Tochukwu](https://github.com/tochukwu19?tab=repositories)
+
+- [Roy Ayo](https://github.com/RoyAyo)
+
+
+
+
+
+
+
+>>>>>>> upstream/master
